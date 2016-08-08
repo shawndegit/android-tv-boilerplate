@@ -2,14 +2,13 @@ package in.ravidsrk.androidtvboilerplate.test.common.rules;
 
 import android.content.Context;
 
-import in.ravidsrk.androidtvboilerplate.test.common.injection.component.DaggerTestComponent;
-
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
 
 import in.ravidsrk.androidtvboilerplate.AndroidTvBoilerplateApplication;
 import in.ravidsrk.androidtvboilerplate.data.DataManager;
+import in.ravidsrk.androidtvboilerplate.test.common.injection.component.DaggerTestComponent;
 import in.ravidsrk.androidtvboilerplate.test.common.injection.component.TestComponent;
 import in.ravidsrk.androidtvboilerplate.test.common.injection.module.ApplicationTestModule;
 
